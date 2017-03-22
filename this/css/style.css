@@ -1,31 +1,3 @@
-/*
-* Wava Theme
-* Created by : mixdesigns
-* website : www.mixdesigns.net
-*/
-
-/* Table of Content
-==================================================
-        - General -
-        - margin spaces -
-        - Header and nav -
-        - intro -
-        - screenshots -
-        - overview -
-        - features -
-        - share -
-        - app-brief1 - app-brief2 -
-        - subscription-form -
-        - contact -
-        - footer -
-        -    THEME SWITCHER -
-        - responsive -
-
-*/
-
-
-/* - General ------------------------------------------------------- */
-
 /* PRE LOADER */
 .preloader {
     position: fixed;
@@ -38,6 +10,10 @@
     height: 100%;
     width: 100%;
     overflow: hidden !important;
+}
+
+.navbar-fixed-top-custom{
+  
 }
 
 .status {
