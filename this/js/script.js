@@ -23,24 +23,24 @@ jQuery(document).ready(function ($) {
             $(this).collapse('hide');
         }
     });
-    
+
     // add white background to nav with scrolling
     if ($(window).scrollTop() > 50) {
         $(".sticky-navigation").addClass("NavBg");
     }
     else {
         $(".sticky-navigation").removeClass("NavBg");
-    }  
-    $(window).scroll(function(){                
+    }
+    $(window).scroll(function(){
         if ($(window).scrollTop() > 50) {
             $(".sticky-navigation").addClass("NavBg");
         }
         else {
             $(".sticky-navigation").removeClass("NavBg");
-        }  
+        }
     });
-     
-    // screenshots carousel 
+
+    // screenshots carousel
     jQuery(function() {
 
         jQuery('#allinone_carousel_sweet').allinone_carousel({
@@ -64,9 +64,9 @@ jQuery(document).ready(function ($) {
             behindCircleColor:"#999999",
             nextPrevMarginTop:25,
             bottomNavMarginBottom:-50
-        });		
-			
-			
+        });
+
+
     });
 
     // input , text area placeholder on browsers
@@ -77,7 +77,7 @@ jQuery(document).ready(function ($) {
         text: "Google Search Page",
         showLabel: false,
         showCount: "inside",
-        shares: ["twitter", "facebook", "googleplus", "pinterest"]
+        shares: ["twitter", "facebook", "googleplus", "pinterest", "linkedin"]
     });
 
 }); // end Document.ready
@@ -98,7 +98,7 @@ if ($('.mailchimp').length>0) {
         url: "//mixdesigns.us4.list-manage.com/subscribe/post?u=d21d287a2a3620961a7419c49&amp;id=a4d425b5b6" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
     });
 }
-    
+
 function mailchimpCallback(resp) {
     if (resp.result === 'success') {
         $('.subscription-success').html('<i class="fa fa-check"></i><br/>' + resp.msg).fadeIn(1000);
@@ -145,7 +145,3 @@ $(document).on('submit', '#contactForm', function (e) {
     }
     return false;
 });
-
-
-
-
