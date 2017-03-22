@@ -46,7 +46,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin: -25px 0 0 -50px;
+    /*margin: -25px 0 0 -50px;*/
+    transform: translateX(-25%) translateY(-100%);
 }
 
 /* top line LOADER */
@@ -248,6 +249,7 @@ h6{
 }
 .space100 {
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 /* Header and nav --------------------------------------------------- */
