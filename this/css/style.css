@@ -12,10 +12,12 @@
     overflow: hidden !important;
 }
 
-.navbar-fixed-top-custom{
-  
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
 }
-
 .status {
     width: 105px;
     height: 50px;

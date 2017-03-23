@@ -16,7 +16,7 @@
 
 .allinone_carousel .contentHolder {
 	position:relative;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 .mycanvas {
 	position:absolute;

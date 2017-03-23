@@ -12,7 +12,7 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['message'])
   }
 
   //
-  mail( "support@mixdesigns.net", WAVA , $_POST['message'], "From:" . $_POST['email'] );
+  mail( "mehul@olivetheory.com", this , $_POST['message'], "From:" . $_POST['email'] );
 
   //			^
   //  Replace with your email
