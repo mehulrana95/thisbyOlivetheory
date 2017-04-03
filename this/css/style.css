@@ -387,12 +387,12 @@ h6 {
     max-width: 50%;
 }
 
-.downloads a {
+.downloads img {
     display: inline-block;
     margin-right: 10px;
 }
 
-.downloads a:last-child {
+.downloads img:last-child {
     margin-right: 0px;
 }
 
@@ -980,7 +980,7 @@ footer p a, footer p a:hover, footer p a:focus {
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    .downloads a {
+    .downloads img {
         margin: 5px;
     }
     .left-mob-front, .left-mob-back, .right-mob-front, .right-mob-back {
@@ -992,10 +992,10 @@ footer p a, footer p a:hover, footer p a:focus {
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {
-  .features-right{
-    text-align: center;
-  }
-  .features-left{
-    text-align: center;
-  }
+    .features-right {
+        text-align: center;
+    }
+    .features-left {
+        text-align: center;
+    }
 }

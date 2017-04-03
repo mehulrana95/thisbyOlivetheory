@@ -73,11 +73,11 @@ jQuery(document).ready(function ($) {
     $('input, textarea').placeholder();
 
     $("#shareIconsCountInside").jsSocials({
-        url: "http://google.com",
-        text: "Google Search Page",
+        url: "http://olivetheory.com/",
+        text: "this by Olive theory",
         showLabel: false,
-        showCount: "inside",
-        shares: ["twitter", "facebook", "googleplus", "pinterest", "linkedin"]
+        showCount: "outside",
+        shares: ["linkedin", "pinterest", "googleplus", "facebook", "twitter"]
     });
 
 }); // end Document.ready
